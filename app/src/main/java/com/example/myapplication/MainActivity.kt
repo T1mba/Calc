@@ -71,7 +71,9 @@ class MainActivity : AppCompatActivity() {
                 result = (firstNumber.toDouble() / secNumber.toDouble()).toString()
                 textViewSec.text = "$firstNumber" + "/" + secNumber + "=" +"$result"
             }
+
         }
+        textView.text = result
     }
 
     fun deleteEvent(view: View) {
@@ -99,10 +101,5 @@ class MainActivity : AppCompatActivity() {
         oper = true
     }
 
-    fun CorenClick(view: View) {
-        var coren:Double= textView.text.toString().toDouble()
-
-        oper = true
 
     }
-}

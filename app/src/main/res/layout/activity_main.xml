@@ -306,7 +306,7 @@
             android:layout_weight="1"
             android:text="0"
             android:id="@+id/Zero"
-            android:onClick="psclick"
+            android:onClick="onOperationClick"
             android:background="@drawable/secdraw"
             android:textSize="25dp"/>
         <android.widget.Button
